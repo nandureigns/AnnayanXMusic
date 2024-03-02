@@ -7,10 +7,10 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", 26847495))
-API_HASH = getenv("API_HASH" d44d5e3adbaa4a2e26eca09be8b1a305)
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", 6673867205:AAFe5XSA2JKD5xE8gNAAHyNc50gmrH5EAFc)
+BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","jasmine_kn06")
 # Get Your bot username
@@ -19,7 +19,7 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "Kn_MusiccBoT")
 BOT_NAME = getenv("BOT_NAME" , "Kn music")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "Kn_MusiccBoT")
-EVALOP = list(map(int, getenv("EVALOP","6366217850").split()))
+EVALOP = list(map(int, getenv("EVALOP","6798658974").split()))
 OWNER_ID = int(getenv("OWNER_ID", 6798658974))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -34,14 +34,13 @@ OWNER_ID = int(getenv("OWNER_ID", 6798658974))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", jasmine)
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", c7ac26d3-c00b-42ef-bb68-c1e23cd02dc6)
+HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/pragy-dl/AnnayanXMUsic",
-)
+    "https://github.com/nandureigns/AnnayanXMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
